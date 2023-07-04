@@ -1,0 +1,174 @@
+:root{
+  
+}
+*{
+  font-family: 'Ubuntu', sans-serif;
+  margin: none;
+  padding: none;
+  box-sizing: none;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+body{
+  background-color: white;
+  min-height: auto;
+}
+header{
+  display: flex;
+  padding: .8rem 4%;
+  background-color: #4566FF;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  padding-bottom: 57px;
+  align-content: center;
+  align-items: center;
+}
+.profil-header{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 3px solid white;
+  
+}
+header .info .nama-kontak-header{
+  text-decoration: bold;
+  font-size: 16px;
+  line-height: 10px;
+}
+main .content .profil-chat {
+  width: 15%;
+  margin: 4%;
+  height: 15%;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+main .content {
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+}
+
+main {
+  left: 0;
+  right: 0;
+  margin-top: 6rem;
+  padding-bottom: 4rem;
+  position: absolute;
+  display: block;
+  border-radius: 15px;
+  background-color: white;
+  overflow: scroll;
+}
+
+main #button {
+  margin-left: 77%;
+  margin-top: 138%;
+  width: 4.9rem;
+  height: 4.9rem;
+  font-size: 3rem;
+  border-radius: 50%;
+  position: fixed;
+  text-align: center;
+  text-overflow: center;
+  justify-content: space-between;
+  background-color: #4566FF;
+  color: white;
+  z-index: 9999;
+  text-decoration: none;
+}
+header .info {
+  color: white;
+  margin-left: 5px;
+  line-height: 10px;
+  font-weight: 14px;
+}
+header .serch-menu {
+  display: flex;
+  margin-left: 100px;
+}
+footer .menu-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 6% .7rem;
+  background-color: skyblue;
+  background-color: #4566FF;
+}
+footer .menu-bar a {
+  color: white;
+  justify-items: space-between;
+  display: inline;
+  margin: .1rem 3.98rem;
+  font-size: 1.3rem;
+  display: inline-block;
+}
+main .info-bar {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 2.6rem;
+  align-items: center;
+  
+}
+main .info-bar p{
+  margin-top: 0;
+  margin-left: 1rem;
+  width: 10px;
+  height: 0;
+  font-size: 1.9rem;
+  margin-bottom: 0;
+}
+footer .jeda {
+  position: fixed;
+  bottom: 2.8rem;
+  left: 0;
+  right: 0;
+  height: 2rem;
+  border-radius:15px;
+  background-color: white;
+  z-index: 9998;
+}
+main .content .chat-info {
+  line-height: 10px;
+  margin-top: 11px;
+  
+}
+
+.material-symbols-outlined {
+  color: black;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 4px,
+  'GRAD' 0,
+  'opsz' 4,
+}
+header serch-menu a{
+  margin-left: 26px;
+}
+span{
+  margin: 4px;
+}
+height .info-bar a{
+  color: black;
+}
+main a:active {
+  color: gray;
+}
+main .content .chat-info .nomer-kontak{
+  opacity: 50%;
+}
+#nomer {
+  opacity: 50%;
+}
+main .info-bar .menu{
+  display: inline-block;
+  font-size: 1.2rem;
+  margin-left: 80%;
+  margin-top: .4rem;
+}
